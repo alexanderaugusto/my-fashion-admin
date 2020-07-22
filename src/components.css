@@ -1,0 +1,15 @@
+/* HEADER */
+.header-button-title{
+  color: white;
+}
+
+.header-menu{
+  margin-top: 50px;
+}
+
+.header-menu-active{
+  background-color: rgba(128,128,128, 0.3) !important;
+  display: flex !important;
+  height: 70px !important;
+	justify-content: center !important;
+}
