@@ -1,7 +1,7 @@
 {
-  "name": "central_modas",
-  "displayName": "Software para gerenciamento de estoque do Central Modas",
-  "description": "Software para gerenciamento de estoque do Central Modas",
+  "name": "my_fashion",
+  "displayName": "Software para gerenciamento de estoque do My Fashion",
+  "description": "Software para gerenciamento de estoque do My Fashion",
   "version": "1.0.0",
   "license": "MIT",
   "publisher": "Alexander Augusto",
@@ -49,7 +49,7 @@
     "react-router-dom": "^5.0.1"
   },
   "build": {
-    "appId": "com.centralmodas.desktop",
+    "appId": "com.myfashion.desktop",
     "linux": {
       "target": [
         "dir"

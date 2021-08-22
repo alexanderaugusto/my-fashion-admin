@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = "https://centralmodas-backend.herokuapp.com"
+const baseURL = "https://my-fashion.herokuapp.com"
 
 const axiosCreated = axios.create({
   baseURL
@@ -8,8 +8,8 @@ const axiosCreated = axios.create({
 
 const routes = {
   // Images
-  IMAGE_PATH_PRODUCT: 'https://centralmodas-backend.herokuapp.com/files/',
-  IMAGE_PATH_USER: 'https://centralmodas-backend.herokuapp.com/files/',
+  IMAGE_PATH_PRODUCT: 'https://res.cloudinary.com/alexanderaugusto/image/upload/v1629666182/my-fashion/uploads/',
+  IMAGE_PATH_USER: 'https://res.cloudinary.com/alexanderaugusto/image/upload/v1629666182/my-fashion/uploads/',
   // Auth
   ROUTE_LOGIN: "/company/login",
   // User routes

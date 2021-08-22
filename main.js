@@ -29,7 +29,7 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 600,
-    title: "Central Modas",
+    title: "My Fashion",
     icon: path.join(__dirname, 'assets/img/logo_mini.png'),
     // Caracteristicas visuais da janela
     // autoHideMenuBar: true,

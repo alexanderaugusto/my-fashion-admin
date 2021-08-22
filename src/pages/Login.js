@@ -54,7 +54,7 @@ export default function Login(props) {
         </div>
 
         <div className={classes.logo}>
-          <img src="./assets/img/logo.png" alt="logo" width="160" height="50" />
+          <img src={api.routes.IMAGE_PATH_PRODUCT + 'logo.webp'} alt="logo" width="160" height="50" />
         </div>
 
         <Title fontSize={16} marginBottom={-30} marginLeft={5}>Não possui uma conta? {" "}
@@ -78,7 +78,7 @@ export default function Login(props) {
         </div>
 
         <div className={classes.logo}>
-          <img src="./assets/img/logo.png" alt="logo" width="160" height="50" />
+          <img src={api.routes.IMAGE_PATH_PRODUCT + 'logo.webp'} alt="logo" width="160" height="50" />
         </div>
 
         <Form {...props} type="register" onSubmit={() => setPage(1)} />
@@ -89,7 +89,7 @@ export default function Login(props) {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} sm={8} className={classes.imageContainer}>
-        <img src="./assets/img/bg-login.jpg" className={classes.bgImage} alt="bg-login" height="100%" />
+        <img src={api.routes.IMAGE_PATH_PRODUCT + 'bg-login.webp'} className={classes.bgImage} alt="bg-login" height="100%" />
       </Grid>
       <Grid item xs={12} sm={4} style={{ textAlign: 'center' }}>
         {page === 1 ? renderLogin() : renderRegister()}
